@@ -1,0 +1,53 @@
+div{
+  
+
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/*العنوان
+*/
+p{
+    color:rgba(60, 118, 255, 0.633);
+   
+}
+
+body{
+    background: linear-gradient(rgb(2, 16, 78),rgb(101, 1, 126));
+    height: 100vh;
+    font-family:system-ui;
+    font-weight: 400px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+color:#fff ;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 70%;
+margin-right: 30px;
+margin-left: 30px;
+
+}
+header ul li a{
+padding: 6px 15px;
+border-radius: 20px;
+}
+header ul li a:hover{
+background: #fff;
+color: cornflowerblue;
+}
+@media (max-width:1000px){
+    header .store{
+      position: relative;
+      left: 50px;
+    }
+    header ul li{
+        position: relative;
+      left: 0px;
+      padding: 6px;
+    }
+}
